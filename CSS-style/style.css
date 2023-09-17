@@ -1,0 +1,77 @@
+* {
+    font-family: 'Underdog', cursive;
+   
+}
+
+h1 {
+    text-align: center;
+    border-style: inset;
+    font-size: 60px;
+    background-color: #dfe6e9; 
+    color:#e67e22;
+    text-shadow:
+      0 1px #808d93,
+      -1px 0 #cdd2d5,
+      -1px 2px #808d93,
+      -2px 1px #cdd2d5,
+      -2px 3px #808d93,
+      -3px 2px #cdd2d5,
+      -3px 4px #808d93,
+      -4px 3px #cdd2d5,
+      -4px 5px #808d93,
+      -5px 4px #cdd2d5,
+      -5px 6px #808d93,
+      -6px 5px #cdd2d5,
+      -6px 7px #808d93,
+      -7px 6px #cdd2d5,
+      -7px 8px #808d93,
+      -8px 7px #cdd2d5;
+}
+
+  
+
+input:checked {
+    
+    height: 30px;
+    width: 30px;
+}
+
+input[type=radio] {
+    accent-color:#f1c40f;
+  }
+
+  article  {
+    background:#ecf0f1;
+  }
+  progress {
+    background-color:#16a085;
+  }
+  #example1 {
+    border: 2px solid black;
+    padding: 20px;
+    background: url(https://picsum.photos/id/237/1900/300);
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  h3 {
+    
+    font-size: 50px;
+  }
+
+  li {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+  }
+ 
+  header {
+    font-size: 50px;
+    background-color: #b2bec3;
+  }
+  .newspaper {
+    column-count: 3;
+    column-fill: balance;
+    column-gap: 40px;
+    border: solid black 1px;
+    background-color: #b2bec3;
+  }

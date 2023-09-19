@@ -2,13 +2,20 @@
     font-family: 'Underdog', cursive;
    
 }
+body {
+  background: rgb(230,235,237);
+background: radial-gradient(circle, rgba(230,235,237,0.5074404761904762) 0%, rgba(232,224,224,0.6222864145658263) 68%, rgba(224,201,232,1) 100%);
+  margin: 3%;
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 h1 {
     text-align: center;
     border-style: inset;
     font-size: 60px;
     background-color: #dfe6e9; 
-    color:#e67e22;
+    color:#55606d;
     text-shadow:
       0 1px #808d93,
       -1px 0 #cdd2d5,
@@ -75,3 +82,17 @@ input[type=radio] {
     border: solid black 1px;
     background-color: #b2bec3;
   }
+  .list-unstyled {
+    /* list-style: none; listedeki nokta işaretlerini siliyor  */
+    list-style: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* nav > ul > li {
+    float: right;
+    width: 4px 10px;
+  } */
+
+ 

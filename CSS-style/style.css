@@ -10,6 +10,7 @@ background: radial-gradient(circle, rgba(230,235,237,0.5074404761904762) 0%, rgb
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+
 h1 {
     text-align: center;
     border-style: inset;
@@ -73,6 +74,7 @@ input[type=radio] {
  
   header {
     font-size: 50px;
+    margin: 40px 4px;
     background-color: #b2bec3;
   }
   .newspaper {
@@ -90,23 +92,4 @@ input[type=radio] {
     margin: 0;
     padding: 0;
   }
-  /* nav > ul > li {
-    float: right;
-    width: 4px 10px;
-  } */
-
-  /* .container {
-    
-    align-items: flex-start;
-  } */
-  /* .reset {
-    -webkit-appearance: none; 
-  }
   
-  .fake-like-search {
-    -webkit-appearance: searchfield;   
-  }
-  input {
-    float: right;
-    width: 4px 10px;
-  } */
